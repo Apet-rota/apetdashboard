@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F0F0F0;
+  --foreground: #0B0B0B;
+  
+  /* APET Identity Colors */
+  --apet-red: #B80820;
+  --apet-red-hover: #9F071B;
+  --apet-black: #0B0B0B;
+  --apet-white: #FFFFFF;
+  --apet-border: #DCDCDC;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  --color-apet-red: var(--apet-red);
+  --color-apet-red-hover: var(--apet-red-hover);
+  --color-apet-black: var(--apet-black);
+  --color-apet-white: var(--apet-white);
+  --color-apet-border: var(--apet-border);
+  
+  --font-sans: var(--font-inter);
+  
+  --radius-card: 18px;
+  --radius-input: 14px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
