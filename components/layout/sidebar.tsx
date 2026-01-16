@@ -60,7 +60,7 @@ export function Sidebar({ className }: SidebarProps) {
                         <div className="h-8 w-8 relative flex items-center justify-center overflow-hidden">
                             {/* Cropped view or just small version - lets try to fit it or fallback to text if it looks bad */}
                             <Image
-                                src="/logo-apet.png"
+                                src="/logoapet.webp"
                                 alt="APET Logo"
                                 width={120}
                                 height={40}
@@ -71,7 +71,7 @@ export function Sidebar({ className }: SidebarProps) {
                     ) : (
                         <div className="relative h-8 w-full max-w-[140px]">
                             <Image
-                                src="/logo-apet.png"
+                                src="/logoapet.webp"
                                 alt="APET Logo"
                                 fill
                                 className="object-contain object-left"
