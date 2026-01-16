@@ -58,24 +58,18 @@ export function Sidebar({ className }: SidebarProps) {
                      */}
                     {isCollapsed ? (
                         <div className="h-8 w-8 relative flex items-center justify-center overflow-hidden">
-                            {/* Cropped view or just small version - lets try to fit it or fallback to text if it looks bad */}
-                            <Image
+                            <img
                                 src="/logoapet.webp"
                                 alt="APET Logo"
-                                width={120}
-                                height={40}
-                                className="object-cover object-left"
-                                style={{ width: 'auto', height: '100%' }}
+                                className="object-cover object-left h-full w-auto"
                             />
                         </div>
                     ) : (
-                        <div className="relative h-8 w-full max-w-[140px]">
-                            <Image
+                        <div className="relative h-8 w-full max-w-[140px] flex items-center">
+                            <img
                                 src="/logoapet.webp"
                                 alt="APET Logo"
-                                fill
-                                className="object-contain object-left"
-                                priority
+                                className="h-full w-auto object-contain object-left"
                             />
                         </div>
                     )}
