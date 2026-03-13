@@ -1,0 +1,45 @@
+[00:00:02.521] Server  LOG     ✓ Ready in 2.2s
+[00:00:07.506] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:07.713] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:07.915] Server  ERROR   WooCommerce Fetch Orders Error: TypeError: Cannot read properties of undefined (reading 'x-wp-total')
+[00:00:08.072] Server  ERROR   ⨯ Error: Failed to fetch orders
+[00:00:08.154] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:08.288] Server  ERROR   WooCommerce Fetch Orders Error: TypeError: Cannot read properties of undefined (reading 'x-wp-total')
+[00:00:08.421] Server  ERROR   ⨯ Error: Failed to fetch orders
+[00:00:08.424] Browser ERROR   {"digest":"4170355692","environmentName":"Server","name":"Error"}
+[00:00:08.466] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:08.484] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:08.617] Server  ERROR   WooCommerce Fetch Orders Error: TypeError: Cannot read properties of undefined (reading 'x-wp-total')
+[00:00:08.796] Server  ERROR   ⨯ Error: Failed to fetch orders
+[00:00:08.810] Browser ERROR   {"digest":"4170355692","environmentName":"Server","name":"Error"}
+[00:00:08.913] Browser ERROR   {"digest":"4170355692","environmentName":"Server","name":"Error"}
+[00:00:30.523] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:31.588] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:32.267] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:36.399] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:36.589] Server  ERROR   WooCommerce Fetch Orders Error: TypeError: Cannot read properties of undefined (reading 'x-wp-total')
+[00:00:36.740] Server  ERROR   ⨯ Error: Failed to fetch orders
+[00:00:36.751] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:36.879] Server  ERROR   WooCommerce Fetch Orders Error: TypeError: Cannot read properties of undefined (reading 'x-wp-total')
+[00:00:37.042] Server  ERROR   ⨯ Error: Failed to fetch orders
+[00:00:37.062] Browser ERROR   {"digest":"4170355692","environmentName":"Server","name":"Error"}
+[00:00:37.068] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:37.076] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:37.232] Server  ERROR   WooCommerce Fetch Orders Error: TypeError: Cannot read properties of undefined (reading 'x-wp-total')
+[00:00:37.361] Server  ERROR   ⨯ Error: Failed to fetch orders
+[00:00:37.362] Browser ERROR   {"digest":"4170355692","environmentName":"Server","name":"Error"}
+[00:00:37.372] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:37.499] Server  ERROR   WooCommerce Fetch Orders Error: TypeError: Cannot read properties of undefined (reading 'x-wp-total')
+[00:00:37.621] Server  ERROR   ⨯ Error: Failed to fetch orders
+[00:00:37.621] Browser ERROR   {"digest":"4170355692","environmentName":"Server","name":"Error"}
+[00:00:37.630] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:37.641] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:37.783] Server  ERROR   WooCommerce Fetch Orders Error: TypeError: Cannot read properties of undefined (reading 'x-wp-total')
+[00:00:37.918] Server  ERROR   ⨯ Error: Failed to fetch orders
+[00:00:37.919] Browser ERROR   {"digest":"4170355692","environmentName":"Server","name":"Error"}
+[00:00:38.022] Browser ERROR   {"digest":"4170355692","environmentName":"Server","name":"Error"}
+[00:00:38.556] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:38.709] Server  ERROR   WooCommerce Fetch Orders Error: TypeError: Cannot read properties of undefined (reading 'x-wp-total')
+[00:00:38.839] Server  ERROR   ⨯ Error: Failed to fetch orders
+[00:00:38.853] Server  WARN    WooCommerce API not configured. Using fallback.
+[00:00:38.944] Browser ERROR   {"digest":"4170355692","environmentName":"Server","name":"Error"}

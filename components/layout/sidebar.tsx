@@ -22,11 +22,6 @@ export function Sidebar({ className }: SidebarProps) {
 
     const navItems = [
         {
-            title: "Analytics",
-            href: "/analytics",
-            icon: BarChart,
-        },
-        {
             title: "Vendas",
             href: "/vendas",
             icon: ShoppingCart,

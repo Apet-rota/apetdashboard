@@ -1,0 +1,35 @@
+{
+  "node": {
+    "70b1adec21d6cc6a52c1a5d462d87b038b70bf4397": {
+      "workers": {
+        "app/vendas/page": {
+          "moduleId": "[project]/.next-internal/server/app/vendas/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/woocommerce.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "fetchSalesData",
+          "filename": "actions/woocommerce.ts"
+        }
+      },
+      "layer": {
+        "app/vendas/page": "action-browser"
+      },
+      "exportedName": "fetchSalesData",
+      "filename": "actions/woocommerce.ts"
+    },
+    "7ea7124ec707e8fbaeada29b77a7f963eb1e7e0d91": {
+      "workers": {
+        "app/vendas/page": {
+          "moduleId": "[project]/.next-internal/server/app/vendas/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/woocommerce.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "fetchOrders",
+          "filename": "actions/woocommerce.ts"
+        }
+      },
+      "layer": {
+        "app/vendas/page": "action-browser"
+      },
+      "exportedName": "fetchOrders",
+      "filename": "actions/woocommerce.ts"
+    }
+  },
+  "edge": {}
+}

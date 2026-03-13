@@ -63,14 +63,30 @@ export async function fetchSalesData(period: string, customRange?: { from: Date,
 
         const statusParam = status === 'all' ? 'any' : status;
 
-        const response = await api.get("orders", {
-            after,
-            before,
-            per_page: 100,
-            status: statusParam
-        });
+        let allOrders: WooOrder[] = [];
+        let currentPage = 1;
+        let hasMore = true;
 
-        const orders: WooOrder[] = response.data;
+        while (hasMore) {
+            const response = await api.get("orders", {
+                after,
+                before,
+                per_page: 100,
+                page: currentPage,
+                status: statusParam
+            });
+
+            const pageOrders: WooOrder[] = response.data;
+            allOrders = allOrders.concat(pageOrders);
+
+            if (pageOrders.length < 100) {
+                hasMore = false;
+            } else {
+                currentPage++;
+            }
+        }
+
+        const orders = allOrders;
 
         // Calculate Stats
         let totalRevenue = 0;
@@ -190,8 +206,8 @@ export async function fetchOrders(
 
         return {
             orders: response.data as WooOrder[],
-            totalOrders: parseInt(response.headers['x-wp-total'] || '0', 10),
-            totalPages: parseInt(response.headers['x-wp-totalpages'] || '0', 10)
+            totalOrders: parseInt(response.headers?.['x-wp-total'] || '0', 10),
+            totalPages: parseInt(response.headers?.['x-wp-totalpages'] || '0', 10)
         };
     } catch (error) {
         console.error("WooCommerce Fetch Orders Error:", error);
